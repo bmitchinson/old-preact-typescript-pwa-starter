@@ -1,6 +1,5 @@
-# preact-typescript-pwa-starter
-
-### A starter kit for a Progressive Web App with...
+[![Build Status](https://travis-ci.com/bmitchinson/preact-typescript-pwa-starter.svg?branch=master)](https://travis-ci.com/bmitchinson/preact-typescript-pwa-starter)
+## A starter kit for a Progressive Web App with...
 - Preact
 - Typescript
 - SASS
