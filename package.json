@@ -28,6 +28,7 @@
         "identity-obj-proxy": "^3.0.0",
         "node-sass": "^4.12.0",
         "preact-cli": "^2.1.0",
+        "preact-cli-plugin-async": "^2.0.0",
         "preact-cli-plugin-typescript": "^0.2.2",
         "preact-render-spy": "^1.2.1",
         "sass-loader": "^7.1.0",

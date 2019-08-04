@@ -1,6 +1,6 @@
 import { resolve } from 'path';
-// eslint-disable-next-line import/no-extraneous-dependencies
 const preactCliTypeScript = require('preact-cli-plugin-typescript');
+import asyncPlugin from 'preact-cli-plugin-async';
 
 /**
  * Function that mutates original webpack config.
@@ -12,5 +12,6 @@ const preactCliTypeScript = require('preact-cli-plugin-typescript');
  * */
 export default function(config, env, helpers) {
     preactCliTypeScript(config);
+    asyncPlugin(config);
     config.resolve.alias['preact-cli-entrypoint'] = resolve(__dirname, 'preact/index.js');
 }
