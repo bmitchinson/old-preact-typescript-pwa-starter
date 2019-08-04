@@ -4,7 +4,7 @@
 - Typescript
 - SASS
 - Starting precache size of 131 kB
-- A Travis-Ci deployment template
+- A travis-ci with firebase deployment template
 - Live reloading. 
     - `tsc` in watch mode with `preact watch` works great + includes sass changes.
 
