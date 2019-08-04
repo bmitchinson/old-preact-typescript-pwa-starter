@@ -4,5 +4,4 @@ node_js:
 before_install:
     - npm install -g typescript@3.5.3
 before_deploy:
-    - tsc
-    - npm run preact_build
+    - npm run build
