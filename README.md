@@ -1,10 +1,12 @@
-[![Build Status](https://travis-ci.com/bmitchinson/preact-typescript-pwa-starter.svg?branch=master)](https://travis-ci.com/bmitchinson/preact-typescript-pwa-starter)
+## [Live Demo](https://preact-typescript-pwa-starter.firebaseapp.com/)
+
+![Travis (.org)](https://img.shields.io/travis/bmitchinson/hexo-theme-tranquilpeak?logo=travis&style=for-the-badge)
 ## A starter kit for a Progressive Web App with...
 - Preact
 - Typescript
 - SASS
 - Starting precache size of 131 kB
-- A Travis-Ci deployment template
+- A travis-ci with firebase deployment template
 - Live reloading. 
     - `tsc` in watch mode with `preact watch` works great + includes sass changes.
 
