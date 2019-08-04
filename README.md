@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/bmitchinson/preact-typescript-pwa-starter.svg?branch=master)](https://travis-ci.com/bmitchinson/preact-typescript-pwa-starter)
+[Live Demo](https://preact-typescript-pwa-starter.firebaseapp.com/) [![Build Status](https://travis-ci.com/bmitchinson/preact-typescript-pwa-starter.svg?branch=master)](https://travis-ci.com/bmitchinson/preact-typescript-pwa-starter)
 ## A starter kit for a Progressive Web App with...
 - Preact
 - Typescript
