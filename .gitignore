@@ -9,11 +9,5 @@ preact_build/
 node_modules/
 ##############
 
-.vscode/
 *.DS_Store
 ##############
-
-.env
-playlistAdmin.json
-##############
-*.cache
