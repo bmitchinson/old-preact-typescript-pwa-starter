@@ -1,0 +1,19 @@
+*.js
+*.js.map
+# Except:
+!preact.config.js
+!preact/index.js
+##############
+
+preact_build/
+node_modules/
+##############
+
+.vscode/
+*.DS_Store
+##############
+
+.env
+playlistAdmin.json
+##############
+*.cache

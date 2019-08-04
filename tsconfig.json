@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "esModuleInterop": true,
+        "target": "es5",
+        "module": "commonjs",
+        "sourceMap": true,
+        "jsx": "react",
+        "jsxFactory": "h",
+        "lib": ["es6", "dom"]
+    },
+    "include": ["preact/**/*"],
+    "exclude": ["preact/index.js", "preact.config.js"]
+}

@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+    - v10.16.0
+before_install:
+    - npm install -g typescript@3.5.3
+before_deploy:
+    - tsc
+    - npm run preact_build
