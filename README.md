@@ -1,4 +1,4 @@
-## [Live Demo](https://preact-typescript-pwa-starter.firebaseapp.com/)
+## preact-typescript-pwa-starter • [Live Demo](https://preact-typescript-pwa-starter.firebaseapp.com/)
 
 ![Travis (.org)](https://img.shields.io/travis/bmitchinson/hexo-theme-tranquilpeak?logo=travis&style=for-the-badge)
 ## A starter kit for a Progressive Web App with...
