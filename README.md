@@ -9,6 +9,7 @@
 - A travis-ci with firebase deployment template
 - Live reloading. 
     - `tsc` in watch mode with `preact watch` works great + includes sass changes.
+- [`preact-cli-plugin-async`](preact-cli-plugin-async) for smaller async functions
 
 Inherited from the functionality of preact-cli:
 - Link routing 
