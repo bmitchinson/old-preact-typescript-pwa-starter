@@ -6,10 +6,11 @@
 - Typescript
 - SASS
 - Starting precache size of 131 kB
-- A travis-ci with firebase deployment template
+- A beginning travis-ci config
+- Firebase hosting template
 - Live reloading. 
     - `tsc` in watch mode with `preact watch` works great + includes sass changes.
-- [`preact-cli-plugin-async`](preact-cli-plugin-async) for smaller async functions
+- [`preact-cli-plugin-async`](https://github.com/developit/preact-cli-plugin-async) for more efficient async functions
 
 Inherited from the functionality of preact-cli:
 - Link routing 
@@ -20,9 +21,15 @@ Inherited from the functionality of preact-cli:
 - `npm i`
 - Make sure you have global installs of typescript and preact-cli@2.2.1
 `npm i -g typescript preact-cli@2.2.1`
-- Run `npm watch` to start a development server. (`-p PORT`)
+- Run `npm run watch` to start a development server. (`-p PORT`)
 - Make a cool app
+
+### To add SCSS + Prettier + ESLint with VSCode Autosave:
+- 
 
 ### Notes
 By default, `.js` and `*js.map` files will be disabled from the file
-explorer in vscode. Simply delete the `.vscode` folder to remove this default.
+explorer in vscode. Simply edit the `.vscode/settings.json` file to edit these defaults.
+
+Additionally, the extensions needed for linting and formating on save are reccommended automatically upon opening the workspace. 
+Check the extensions menu for the reccomendations, or reference the `.vscode/extensions.json` file.
