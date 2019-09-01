@@ -1,101 +1,102 @@
 {
-  "name": "preact-typescript-pwa-starter",
-  "version": "1.0.0",
-  "description": "Showcase your music collection in a way that's streaming platform agnostic + with highlighted selections.",
-  "scripts": {
-    "build": "tsc && preact build --src preact --dest preact_build --no-prerender",
-    "watch": "concurrently \"tsc --watch\" \"preact watch --src preact\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bmitchinson/preact-typescript-pwa-starter.git"
-  },
-  "author": "Ben Mitchinson",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/bmitchinson/preact-typescript-pwa-starter"
-  },
-  "homepage": "https://github.com/bmitchinson/preact-typescript-pwa-starter",
-  "dependencies": {
-    "preact": "^8.2.6",
-    "preact-compat": "^3.17.0",
-    "preact-render-to-string": "^4.1.0",
-    "preact-router": "^2.6.1"
-  },
-  "devDependencies": {
-    "@types/node": "^12.6.8",
-    "@types/node-sass": "^4.11.0",
-    "@typescript-eslint/eslint-plugin": "^2.0.0",
-    "@typescript-eslint/parser": "^2.0.0",
-    "concurrently": "^4.1.1",
-    "css-loader": "^3.2.0",
-    "eslint": "^6.3.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.1.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-config-standard-preact": "^1.1.6",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-json": "^1.4.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-node": "^9.2.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-standard": "^4.0.1",
-    "identity-obj-proxy": "^3.0.0",
-    "node-sass": "^4.12.0",
-    "preact-cli": "^2.1.0",
-    "preact-cli-plugin-async": "^2.0.0",
-    "preact-cli-plugin-typescript": "^0.2.2",
-    "preact-render-spy": "^1.2.1",
-    "prettier": "^1.18.2",
-    "prettier-eslint": "^9.0.0",
-    "prettier-eslint-cli": "^5.0.0",
-    "prettier-stylelint": "^0.4.2",
-    "sass-loader": "^7.1.0",
-    "source-map-support": "^0.5.13",
-    "stylelint": "^10.1.0",
-    "stylelint-config-standard": "^18.3.0",
-    "stylelint-order": "^3.1.0",
-    "superstatic": "^6.0.4",
-    "typescript": "^3.5.3"
-  },
-  "eslintConfig": {
-    "parser": "@typescript-eslint/parser",
-    "extends": [
-      "standard-preact",
-      "plugin:prettier/recommended",
-      "plugin:@typescript-eslint/recommended"
-    ],
-    "parserOptions": {
-      "ecmaVersion": "2018",
-      "sourceType": "module"
+    "name": "preact-typescript-pwa-starter",
+    "version": "1.0.0",
+    "description": "Showcase your music collection in a way that's streaming platform agnostic + with highlighted selections.",
+    "scripts": {
+        "build": "tsc && preact build --src preact --dest preact_build --no-prerender",
+        "watch": "concurrently \"tsc --watch\" \"preact watch --src preact\"",
+        "lint": "eslint . --ext .ts --ext .tsx && stylelint preact/**/*.scss"
     },
-    "rules": {
-      "@typescript-eslint/explicit-function-return-type": 0,
-      "@typescript-eslint/no-explicit-any": 0,
-      "@typescript-eslint/no-empty-interface": 0,
-      "@typescript-eslint/explicit-member-accessibility": 0
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bmitchinson/preact-typescript-pwa-starter.git"
     },
-    "overrides": [
-      {
-        "files": [
-          "*.tsx"
+    "author": "Ben Mitchinson",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/bmitchinson/preact-typescript-pwa-starter"
+    },
+    "homepage": "https://github.com/bmitchinson/preact-typescript-pwa-starter",
+    "dependencies": {
+        "preact": "^8.2.6",
+        "preact-compat": "^3.17.0",
+        "preact-render-to-string": "^4.1.0",
+        "preact-router": "^2.6.1"
+    },
+    "devDependencies": {
+        "@types/node": "^12.6.8",
+        "@types/node-sass": "^4.11.0",
+        "@typescript-eslint/eslint-plugin": "^2.0.0",
+        "@typescript-eslint/parser": "^2.0.0",
+        "concurrently": "^4.1.1",
+        "css-loader": "^3.2.0",
+        "eslint": "^6.3.0",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-config-prettier": "^6.1.0",
+        "eslint-config-standard": "^14.1.0",
+        "eslint-config-standard-preact": "^1.1.6",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-json": "^1.4.0",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-node": "^9.2.0",
+        "eslint-plugin-prettier": "^3.1.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-react": "^7.14.3",
+        "eslint-plugin-standard": "^4.0.1",
+        "identity-obj-proxy": "^3.0.0",
+        "node-sass": "^4.12.0",
+        "preact-cli": "^2.1.0",
+        "preact-cli-plugin-async": "^2.0.0",
+        "preact-cli-plugin-typescript": "^0.2.2",
+        "preact-render-spy": "^1.2.1",
+        "prettier": "^1.18.2",
+        "prettier-eslint": "^9.0.0",
+        "prettier-eslint-cli": "^5.0.0",
+        "prettier-stylelint": "^0.4.2",
+        "sass-loader": "^7.1.0",
+        "source-map-support": "^0.5.13",
+        "stylelint": "^10.1.0",
+        "stylelint-config-standard": "^18.3.0",
+        "stylelint-order": "^3.1.0",
+        "superstatic": "^6.0.4",
+        "typescript": "^3.5.3"
+    },
+    "eslintConfig": {
+        "parser": "@typescript-eslint/parser",
+        "extends": [
+            "standard-preact",
+            "plugin:prettier/recommended",
+            "plugin:@typescript-eslint/recommended"
         ],
+        "parserOptions": {
+            "ecmaVersion": "2018",
+            "sourceType": "module"
+        },
         "rules": {
-          "@typescript-eslint/indent": "off",
-          "react/jsx-indent": "off"
+            "@typescript-eslint/explicit-function-return-type": 0,
+            "@typescript-eslint/no-explicit-any": 0,
+            "@typescript-eslint/no-empty-interface": 0,
+            "@typescript-eslint/explicit-member-accessibility": 0
+        },
+        "overrides": [
+            {
+                "files": [
+                    "*.tsx"
+                ],
+                "rules": {
+                    "@typescript-eslint/indent": "off",
+                    "react/jsx-indent": "off"
+                }
+            }
+        ],
+        "settings": {
+            "react": {
+                "version": "16.0"
+            }
         }
-      }
-    ],
-    "settings": {
-      "react": {
-        "version": "16.0"
-      }
-    }
-  },
-  "eslintIgnore": [
-    "preact_build",
-    "out"
-  ]
+    },
+    "eslintIgnore": [
+        "preact_build",
+        "out"
+    ]
 }
