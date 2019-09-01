@@ -1,9 +1,11 @@
 {
+    "compileOnSave": false,
     "compilerOptions": {
         "allowJs": true,
         "esModuleInterop": true,
         "target": "es5",
         "module": "commonjs",
+        "removeComments": true,
         "sourceMap": true,
         "jsx": "react",
         "jsxFactory": "h",

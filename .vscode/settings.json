@@ -8,7 +8,7 @@
   "typescript.tsdk": "node_modules\\typescript\\lib",
   "eslint.alwaysShowStatus": true,
   "files.exclude": {
-      "**/*.js": { "when": "$(basename).ts" },
-      "**/*.js.map": true
+    "**/*.js": { "when": "$(basename).tsx" },
+    "**/*.js.map": true
   }
 }
