@@ -6,10 +6,11 @@
 - Typescript
 - SASS
 - Starting precache size of 131 kB
-- A travis-ci with firebase deployment template
+- A beginning travis-ci config
+- Firebase hosting template
 - Live reloading. 
     - `tsc` in watch mode with `preact watch` works great + includes sass changes.
-- [`preact-cli-plugin-async`](preact-cli-plugin-async) for smaller async functions
+- [`preact-cli-plugin-async`](https://github.com/developit/preact-cli-plugin-async) for more efficient async functions
 
 Inherited from the functionality of preact-cli:
 - Link routing 
@@ -25,4 +26,4 @@ Inherited from the functionality of preact-cli:
 
 ### Notes
 By default, `.js` and `*js.map` files will be disabled from the file
-explorer in vscode. Simply delete the `.vscode` folder to remove this default.
+explorer in vscode. Simply edit the `.vscode/settings.json` file to edit these defaults.
