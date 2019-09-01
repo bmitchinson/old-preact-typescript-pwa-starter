@@ -10,5 +10,5 @@
         "lib": ["es6", "dom"]
     },
     "include": ["preact/**/*"],
-    "exclude": ["preact/index.js", "preact.config.js"]
+    "exclude": ["preact/index.js", "preact.config.js", "node_modules/*"]
 }
