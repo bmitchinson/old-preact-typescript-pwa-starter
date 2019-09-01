@@ -1,7 +1,14 @@
 {
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": false,
+  "eslint.validate": ["typescript", "typescriptreact"],
+  "prettier.eslintIntegration": true,
+  "prettier.stylelintIntegration": true,
+  "prettier.disableLanguages": [],
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "eslint.alwaysShowStatus": true,
   "files.exclude": {
-    "**/*.js.map": true,
-    "**/*.js" : { "when": "$(basename).ts" },
-    "**/*.js" : { "when": "$(basename).tsx" },
+      "**/*.js": { "when": "$(basename).ts" },
+      "**/*.js.map": true
   }
 }
