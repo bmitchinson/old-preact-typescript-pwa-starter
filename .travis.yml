@@ -1,12 +1,14 @@
 language: node_js
 node_js:
-- v10.16.0
+    - v10.16.0
 before_install:
-- npm install -g typescript@3.5.3
+    - npm install -g typescript
 before_deploy:
-- npm run build
+    - npm run lint
+    - tsc
+    - npm run build
 deploy:
-  skip_cleanup: true
-  provider: firebase
-  token:
-    - secure: HdnrIYjMhySB4OR3V5a1Fti8QerglWwRvimtyPzN2+WulrkIaYMJDOdaBOu6+0ukD01P5w/HTDruSo59m3Yi6bkSYUhvfec6vUth4qRFuUVZqgEKcPOfm/2uQ7WoXvE/NoCdEE7vMQ1JaTpNKIZ1UYOycw+/jNMJrnqA6e+pftA4jEuCh36NPMUgwQvlt9oSnJ4m8DEvPHGsTW3pdqhctrMj1wf33b0RHD3lj5KSEprQUs0y6ToxEmiXIL+ufOZoJGNt1NJzwjT8HK5xh9RRhvMs9xeiynA7Zd7Tr6OLLVD1t1Cpdkz7kBwhqeyxs+dEtV+QYoyWipD5nJnrzzOelmMU1gFPUm5z2jAn8n2WVIDKi74no6fmZTrP/vUTlZBMQ1Almf/KdKWtF68EcnVUGmEyRG67/8wLDW8c1gOLzbi6uZ1njz4bjIpk8tan5OW/tFstmV1/3hsUot5rKEfyxrN2TSJFeiCupPawksoeA6ey83NHN+Ia/AIkUQJy3YQtML8zLXvbAHxmHQ7fv7R68z1y+Mx02eFmT6AN29dmjr3hChKvgJkOaWwNQn0wjWmtyRd54yVzX5Rk3snFE4QdF4hNjhdt+INgSp2BjPsn1QLcM8o9tAZs4IKvLrPQTMpZYzy2J1n2QXnszRTGDjN3TVMqVv2QEKXmEgqzgBkxaKA=
+    skip_cleanup: true
+    provider: firebase
+    token:
+        - secure: HdnrIYjMhySB4OR3V5a1Fti8QerglWwRvimtyPzN2+WulrkIaYMJDOdaBOu6+0ukD01P5w/HTDruSo59m3Yi6bkSYUhvfec6vUth4qRFuUVZqgEKcPOfm/2uQ7WoXvE/NoCdEE7vMQ1JaTpNKIZ1UYOycw+/jNMJrnqA6e+pftA4jEuCh36NPMUgwQvlt9oSnJ4m8DEvPHGsTW3pdqhctrMj1wf33b0RHD3lj5KSEprQUs0y6ToxEmiXIL+ufOZoJGNt1NJzwjT8HK5xh9RRhvMs9xeiynA7Zd7Tr6OLLVD1t1Cpdkz7kBwhqeyxs+dEtV+QYoyWipD5nJnrzzOelmMU1gFPUm5z2jAn8n2WVIDKi74no6fmZTrP/vUTlZBMQ1Almf/KdKWtF68EcnVUGmEyRG67/8wLDW8c1gOLzbi6uZ1njz4bjIpk8tan5OW/tFstmV1/3hsUot5rKEfyxrN2TSJFeiCupPawksoeA6ey83NHN+Ia/AIkUQJy3YQtML8zLXvbAHxmHQ7fv7R68z1y+Mx02eFmT6AN29dmjr3hChKvgJkOaWwNQn0wjWmtyRd54yVzX5Rk3snFE4QdF4hNjhdt+INgSp2BjPsn1QLcM8o9tAZs4IKvLrPQTMpZYzy2J1n2QXnszRTGDjN3TVMqVv2QEKXmEgqzgBkxaKA=
