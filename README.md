@@ -1,6 +1,6 @@
 ## preact-typescript-pwa-starter • [Live Demo](https://preact-typescript-pwa-starter.firebaseapp.com/)
 
-![Travis (.org)](https://img.shields.io/travis/bmitchinson/hexo-theme-tranquilpeak?logo=travis&style=for-the-badge)
+[![Travis (.org)](https://img.shields.io/travis/bmitchinson/hexo-theme-tranquilpeak?logo=travis&style=for-the-badge)](https://travis-ci.com/bmitchinson/preact-typescript-pwa-starter)
 ## A starter kit for a Progressive Web App with...
 - Preact
 - Typescript
