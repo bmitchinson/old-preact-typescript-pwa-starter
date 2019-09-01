@@ -24,6 +24,12 @@ Inherited from the functionality of preact-cli:
 - Run `npm run watch` to start a development server. (`-p PORT`)
 - Make a cool app
 
+### To add SCSS + Prettier + ESLint with VSCode Autosave:
+- 
+
 ### Notes
 By default, `.js` and `*js.map` files will be disabled from the file
 explorer in vscode. Simply edit the `.vscode/settings.json` file to edit these defaults.
+
+Additionally, the extensions needed for linting and formating on save are reccommended automatically upon opening the workspace. 
+Check the extensions menu for the reccomendations, or reference the `.vscode/extensions.json` file.
