@@ -21,7 +21,7 @@ Inherited from the functionality of preact-cli:
 - `npm i`
 - Make sure you have global installs of typescript and preact-cli@2.2.1
 `npm i -g typescript preact-cli@2.2.1`
-- Run `npm watch` to start a development server. (`-p PORT`)
+- Run `npm run watch` to start a development server. (`-p PORT`)
 - Make a cool app
 
 ### Notes
