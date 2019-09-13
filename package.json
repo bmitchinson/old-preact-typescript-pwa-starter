@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "description": "Showcase your music collection in a way that's streaming platform agnostic + with highlighted selections.",
     "scripts": {
-        "build": "tsc && preact build --src preact --dest preact_build --no-prerender",
-        "watch": "concurrently \"tsc --watch\" \"preact watch --src preact\"",
+        "build": "tsc && preact build --src preact --dest preact_build --template preact/index.html --no-prerender",
+        "watch": "concurrently \"tsc --watch\" \"preact watch --src preact --template preact/index.html --port 1234\"",
         "lint": "eslint . --ext .ts --ext .tsx && stylelint preact/**/*.scss"
     },
     "repository": {
